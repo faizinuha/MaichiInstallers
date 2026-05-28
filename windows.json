@@ -1,0 +1,276 @@
+{
+  "version": "1.0",
+  "updated": "2026-05-28",
+  "categories": {
+    "browser": {
+      "label": "🌐 Browser",
+      "apps": [
+        {
+          "id": "Google.Chrome",
+          "name": "Google Chrome",
+          "desc": "Browser paling populer"
+        },
+        {
+          "id": "Mozilla.Firefox",
+          "name": "Mozilla Firefox",
+          "desc": "Open source, privacy friendly"
+        },
+        {
+          "id": "Brave.Brave",
+          "name": "Brave Browser",
+          "desc": "Built-in ad blocker"
+        },
+        {
+          "id": "Microsoft.Edge",
+          "name": "Microsoft Edge",
+          "desc": "Browser bawaan Windows modern"
+        },
+        {
+          "id": "Opera.OperaGX",
+          "name": "Opera GX",
+          "desc": "Browser gaming"
+        }
+      ]
+    },
+    "media": {
+      "label": "🎵 Media & Player",
+      "apps": [
+        {
+          "id": "VideoLAN.VLC",
+          "name": "VLC Media Player",
+          "desc": "Play semua format video/audio"
+        },
+        {
+          "id": "Spotify.Spotify",
+          "name": "Spotify",
+          "desc": "Streaming musik"
+        },
+        {
+          "id": "OBSProject.OBSStudio",
+          "name": "OBS Studio",
+          "desc": "Record & streaming"
+        },
+        {
+          "id": "HandBrake.HandBrake",
+          "name": "HandBrake",
+          "desc": "Video converter"
+        },
+        {
+          "id": "Audacity.Audacity",
+          "name": "Audacity",
+          "desc": "Audio editor gratis"
+        },
+        {
+          "id": "PeterPavlinek.foobar2000",
+          "name": "foobar2000",
+          "desc": "Music player ringan"
+        }
+      ]
+    },
+    "productivity": {
+      "label": "📋 Productivity",
+      "apps": [
+        {
+          "id": "TheDocumentFoundation.LibreOffice",
+          "name": "LibreOffice",
+          "desc": "Office suite gratis"
+        },
+        {
+          "id": "Notepad++.Notepad++",
+          "name": "Notepad++",
+          "desc": "Text editor powerful"
+        },
+        {
+          "id": "7zip.7zip",
+          "name": "7-Zip",
+          "desc": "Extractor file terbaik"
+        },
+        {
+          "id": "geeksoftwareGmbH.PDF24Creator",
+          "name": "PDF24",
+          "desc": "PDF tools lengkap gratis"
+        },
+        {
+          "id": "Obsidian.Obsidian",
+          "name": "Obsidian",
+          "desc": "Note taking markdown"
+        },
+        {
+          "id": "Notion.Notion",
+          "name": "Notion",
+          "desc": "All-in-one workspace"
+        },
+        {
+          "id": "ShareX.ShareX",
+          "name": "ShareX",
+          "desc": "Screenshot & screen record"
+        }
+      ]
+    },
+    "developer": {
+      "label": "🛠️  Developer Tools",
+      "apps": [
+        {
+          "id": "Microsoft.VisualStudioCode",
+          "name": "VS Code",
+          "desc": "Code editor terpopuler"
+        },
+        {
+          "id": "Git.Git",
+          "name": "Git",
+          "desc": "Version control wajib"
+        },
+        {
+          "id": "Python.Python.3",
+          "name": "Python 3",
+          "desc": "Programming language"
+        },
+        {
+          "id": "OpenJS.NodeJS.LTS",
+          "name": "Node.js LTS",
+          "desc": "JavaScript runtime"
+        },
+        {
+          "id": "Microsoft.WindowsTerminal",
+          "name": "Windows Terminal",
+          "desc": "Terminal modern"
+        },
+        {
+          "id": "Postman.Postman",
+          "name": "Postman",
+          "desc": "API testing tool"
+        },
+        {
+          "id": "Docker.DockerDesktop",
+          "name": "Docker Desktop",
+          "desc": "Container platform"
+        },
+        {
+          "id": "Microsoft.PowerShell",
+          "name": "PowerShell 7",
+          "desc": "PowerShell modern"
+        }
+      ]
+    },
+    "communication": {
+      "label": "💬 Komunikasi",
+      "apps": [
+        {
+          "id": "WhatsApp.WhatsApp",
+          "name": "WhatsApp",
+          "desc": "Messaging populer"
+        },
+        {
+          "id": "Telegram.TelegramDesktop",
+          "name": "Telegram",
+          "desc": "Messaging dengan cloud"
+        },
+        {
+          "id": "Discord.Discord",
+          "name": "Discord",
+          "desc": "Chat gaming & komunitas"
+        },
+        {
+          "id": "Zoom.Zoom",
+          "name": "Zoom",
+          "desc": "Video conference"
+        }
+      ]
+    },
+    "gaming": {
+      "label": "🎮 Gaming",
+      "apps": [
+        {
+          "id": "Valve.Steam",
+          "name": "Steam",
+          "desc": "Platform gaming terbesar"
+        },
+        {
+          "id": "EpicGames.EpicGamesLauncher",
+          "name": "Epic Games",
+          "desc": "Platform game + free game tiap minggu"
+        },
+        {
+          "id": "GOG.Galaxy",
+          "name": "GOG Galaxy",
+          "desc": "DRM-free gaming"
+        },
+        {
+          "id": "Libretro.RetroArch",
+          "name": "RetroArch",
+          "desc": "Multi emulator (PS1, SNES, GBA, dll)"
+        },
+        {
+          "id": "PCSX2.PCSX2",
+          "name": "PCSX2",
+          "desc": "Emulator PS2"
+        },
+        {
+          "id": "RPCS3.RPCS3",
+          "name": "RPCS3",
+          "desc": "Emulator PS3"
+        },
+        {
+          "id": "Ryujinx.Ryujinx",
+          "name": "Ryujinx",
+          "desc": "Emulator Nintendo Switch"
+        },
+        {
+          "id": "Cemu.Cemu",
+          "name": "Cemu",
+          "desc": "Emulator Wii U"
+        }
+      ]
+    },
+    "utility": {
+      "label": "⚙️  Utility & System",
+      "apps": [
+        {
+          "id": "CPUID.CPU-Z",
+          "name": "CPU-Z",
+          "desc": "Info hardware detail"
+        },
+        {
+          "id": "TechPowerUp.GPU-Z",
+          "name": "GPU-Z",
+          "desc": "Info GPU detail"
+        },
+        {
+          "id": "CPUID.HWMonitor",
+          "name": "HWMonitor",
+          "desc": "Monitor suhu & voltage"
+        },
+        {
+          "id": "CrystalDewWorld.CrystalDiskInfo",
+          "name": "CrystalDiskInfo",
+          "desc": "Cek kesehatan HDD/SSD"
+        },
+        {
+          "id": "JAMSoftware.TreeSize.Free",
+          "name": "TreeSize Free",
+          "desc": "Cek penggunaan disk"
+        },
+        {
+          "id": "voidtools.Everything",
+          "name": "Everything",
+          "desc": "Search file super cepat"
+        },
+        {
+          "id": "TGRMN.BulkRenameUtility",
+          "name": "Bulk Rename",
+          "desc": "Rename file massal"
+        }
+      ]
+    }
+  },
+  "recommended": [
+    "Google.Chrome",
+    "VideoLAN.VLC",
+    "Notepad++.Notepad++",
+    "7zip.7zip",
+    "Microsoft.VisualStudioCode",
+    "Git.Git",
+    "Discord.Discord",
+    "ShareX.ShareX"
+  ]
+}
