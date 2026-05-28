@@ -1,6 +1,6 @@
 # ============================================================
 #   Maichi - Windows App Installer
-#   https://github.com/USERNAME/Maichi-ninite
+#   https://github.com/faizinuha/MaichiInstallers
 # ============================================================
 
 param(
@@ -9,9 +9,16 @@ param(
 )
 
 # ── Config ───────────────────────────────────────────────────
-$REPO_RAW   = "https://raw.githubusercontent.com/USERNAME/Maichi-ninite/main"
+$REPO_RAW   = "https://raw.githubusercontent.com/faizinuha/MaichiInstallers/main"
 $JSON_URL   = "$REPO_RAW/apps/windows.json"
-$JSON_LOCAL = "$PSScriptRoot\..\apps\windows.json"
+$SCRIPT_DIR = $PSScriptRoot
+if (-not $SCRIPT_DIR) {
+    $SCRIPT_DIR = Split-Path -Parent $MyInvocation.MyCommand.Definition
+}
+$JSON_LOCAL = Join-Path $SCRIPT_DIR "apps\windows.json"
+if (-not (Test-Path $JSON_LOCAL)) {
+    $JSON_LOCAL = Join-Path $SCRIPT_DIR "..\apps\windows.json"
+}
 $TEMP_JSON  = "$env:TEMP\Maichi_windows.json"
 $VERSION    = "1.0.0"
 

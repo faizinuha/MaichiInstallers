@@ -1,6 +1,6 @@
 # 📦 Maichi
 
-> Install semua app favorit kamu dalam satu command — Windows & Android
+> Install semua app favorit kamu dalam satu command — Windows
 
 ---
 
@@ -11,20 +11,16 @@
 Buka **PowerShell as Administrator**, lalu jalankan:
 
 ```powershell
-irm https://raw.githubusercontent.com/faizinuha/MaichiInstallers/main/windows/Maichi.ps1 | iex
+irm https://raw.githubusercontent.com/faizinuha/MaichiInstallers/main/Maichi.ps1 | iex
 ```
 
 Atau kalau mau langsung install recommended package:
 
 ```powershell
-$s = irm https://raw.githubusercontent.com/faizinuha/MaichiInstallers/main/windows/Maichi.ps1
+$s = irm https://raw.githubusercontent.com/faizinuha/MaichiInstallers/main/Maichi.ps1
 iex "& { $s } -Recommended"
 ```
 
-### Android (Termux)
-*Coming soon...*
-
----
 
 ## 📋 Daftar App
 
@@ -71,14 +67,10 @@ iex "& { $s } -Recommended"
 - [winget](https://aka.ms/getwinget) (biasanya sudah ada)
 - PowerShell 5.1+
 
-### Android
-- Termux (dari F-Droid, **bukan Play Store**)
-
----
 
 ## 🤝 Kontribusi
 
-Mau tambah app? Edit `apps/windows.json` atau `apps/android.json` dan buat Pull Request!
+Mau tambah app? Edit `apps/windows.json` dan buat Pull Request!
 
 Format entry baru:
 ```json
