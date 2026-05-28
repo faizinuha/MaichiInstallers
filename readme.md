@@ -1,4 +1,4 @@
-# 📦 MaichiNinite
+# 📦 Maichi
 
 > Install semua app favorit kamu dalam satu command — Windows & Android
 
@@ -11,13 +11,13 @@
 Buka **PowerShell as Administrator**, lalu jalankan:
 
 ```powershell
-irm https://raw.githubusercontent.com/USERNAME/Maichi-ninite/main/windows/Maichi.ps1 | iex
+irm https://raw.githubusercontent.com/faizinuha/MaichiInstallers/main/windows/Maichi.ps1 | iex
 ```
 
 Atau kalau mau langsung install recommended package:
 
 ```powershell
-$s = irm https://raw.githubusercontent.com/USERNAME/Maichi-ninite/main/windows/Maichi.ps1
+$s = irm https://raw.githubusercontent.com/faizinuha/MaichiInstallers/main/windows/Maichi.ps1
 iex "& { $s } -Recommended"
 ```
 

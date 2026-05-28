@@ -1,6 +1,6 @@
 # ============================================================
 #   Maichi - Windows App Installer
-#   https://github.com/USERNAME/pocket-ninite
+#   https://github.com/USERNAME/Maichi-ninite
 # ============================================================
 
 param(
@@ -9,7 +9,7 @@ param(
 )
 
 # ── Config ───────────────────────────────────────────────────
-$REPO_RAW   = "https://raw.githubusercontent.com/USERNAME/pocket-ninite/main"
+$REPO_RAW   = "https://raw.githubusercontent.com/USERNAME/Maichi-ninite/main"
 $JSON_URL   = "$REPO_RAW/apps/windows.json"
 $JSON_LOCAL = "$PSScriptRoot\..\apps\windows.json"
 $TEMP_JSON  = "$env:TEMP\Maichi_windows.json"

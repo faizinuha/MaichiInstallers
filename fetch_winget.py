@@ -198,7 +198,7 @@ def fetch_choco(query: str, top: int = 30) -> list[dict]:
     try:
         req = urllib.request.Request(
             url,
-            headers={"Accept": "application/json", "User-Agent": "PocketNinite/1.0"}
+            headers={"Accept": "application/json", "User-Agent": "Maichi/1.0"}
         )
         with urllib.request.urlopen(req, timeout=10) as resp:
             raw = json.loads(resp.read().decode())
@@ -339,7 +339,7 @@ def main():
     offline = "--offline" in sys.argv
 
     print("=" * 50)
-    print("  PocketNinite — App Data Fetcher")
+    print("  Maichi — App Data Fetcher")
     print("=" * 50)
 
     if offline:
