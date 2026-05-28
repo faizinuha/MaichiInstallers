@@ -11,14 +11,25 @@ param(
 # ── Config ───────────────────────────────────────────────────
 $REPO_RAW   = "https://raw.githubusercontent.com/faizinuha/MaichiInstallers/main"
 $JSON_URL   = "$REPO_RAW/apps/windows.json"
+
+# Determine script directory (works both when run as file and via iex)
 $SCRIPT_DIR = $PSScriptRoot
-if (-not $SCRIPT_DIR) {
+if (-not $SCRIPT_DIR -or $SCRIPT_DIR -eq "") {
     $SCRIPT_DIR = Split-Path -Parent $MyInvocation.MyCommand.Definition
 }
+if (-not $SCRIPT_DIR -or $SCRIPT_DIR -eq "") {
+    $SCRIPT_DIR = Get-Location
+}
+
 $JSON_LOCAL = Join-Path $SCRIPT_DIR "apps\windows.json"
 if (-not (Test-Path $JSON_LOCAL)) {
     $JSON_LOCAL = Join-Path $SCRIPT_DIR "..\apps\windows.json"
 }
+if (-not (Test-Path $JSON_LOCAL)) {
+    # Last fallback: use temp cache if available
+    $JSON_LOCAL = "$env:TEMP\Maichi_windows.json"
+}
+
 $TEMP_JSON  = "$env:TEMP\Maichi_windows.json"
 $VERSION    = "1.0.0"
 
@@ -30,7 +41,7 @@ function Write-Color {
 }
 
 function Write-Banner {
-    Clear-Host
+    try { Clear-Host } catch { Write-Host "`n" }
     Write-Color ""
     Write-Color "  ╔══════════════════════════════════════════╗" Cyan
     Write-Color "  ║       📦 Maichi v$VERSION           ║" Cyan
